@@ -1,6 +1,6 @@
 # React Native Image Placeholder
 
-> Load images incrementally to provide a better UX Edit
+> Load images incrementally to provide a better User Experience.
 
 If you want to download larger images but provide with a nice transition while the users are waiting
 for the image you can provide with a smaller version of the image (as [you can see on the
@@ -33,7 +33,7 @@ npm install --save reac-native-image-placeholder
 
 # Getting started
 
-Import the file as specified on the [installation steps](#Installation). Then import the Component where you have
+Import the file as specified on the [installation steps](#installation). Then import the Component where you have
 plans to use it, for example: 
 
 ```js
@@ -68,19 +68,19 @@ render() {
       <ImagePlaceholder 
         style={styles.item}
         src='https://s3.amazonaws.com/crisoforo.com/airplane.jpg' 
-        thumbnail='https://s3.amazonaws.com/crisoforo.com/airplane-mini.jpg'
+        placeholder='https://s3.amazonaws.com/crisoforo.com/airplane-mini.jpg'
       />
       <ImagePlaceholder 
         style={styles.item}
         duration={3000}
         src='https://s3.amazonaws.com/crisoforo.com/flowers.jpg' 
-        thumbnail='https://s3.amazonaws.com/crisoforo.com/flowers-small.jpg'
+        placeholder='https://s3.amazonaws.com/crisoforo.com/flowers-small.jpg'
       />
       <ImagePlaceholder 
         style={styles.item}
         duration={1000}
         src='https://s3.amazonaws.com/crisoforo.com/sun.jpg' 
-        thumbnail='https://s3.amazonaws.com/crisoforo.com/sun-small.jpg'
+        placeholder='https://s3.amazonaws.com/crisoforo.com/sun-small.jpg'
       />
     </View>
     )
@@ -104,12 +104,12 @@ const styles = StyleSheet.create({
 Props             | Type          | Optional      | Default     | Description  
 ------------------|---------------|---------------|-------------|------------  
 src | String | false | null | The url of the main image to be fetched.    
-placeholder | String | true | null | The smaller image present before the main image is ready if is not present  it will show an `ActivityIndicator` component instead.
+placeholder | String | true | null | The smaller image present before the main image is ready if is not present  it will show an [`ActivityIndicator`](https://facebook.github.io/react-native/docs/activityindicator.html) component instead.
 style   |   View.propTypes.style  |   true  |   [Container Style](https://github.com/mitogh/react-native-image-placeholder/blob/master/ImagePlaceholder.js#L90-L93)   |   Style applied to the image container  
 imageStyle | Object | true | null | The styles appliead to the main image.  
 placeholderStyle | Object | true | null | The styles applied to the placeholder image.  
 placeholderContainerStyle | Object | true | null | The styles applied to the container `View` of the placeholder image.  
 duration  |   Integer   |   true  |   750   |   Time in miliseconds used to transition to the original image once is ready.   
 showActivityIndicator   |   Boolean   |   true  |   true  | If `true` an [`ActivityIndicator`](https://facebook.github.io/react-native/docs/activityindicator.html) should be displayed while the placeholder image is being fetch or if is not present.  
-activityIndicatorProps  |   Object  |   true  |   null  |   Options to pass to the `ActivityIndicator` component such as `size`, `color` or `style`.   
-ActivityIndicator |   Component   | true  | null  | If present it will render this instead of the `ActivityIndicator` component and `activityIndicatorProps` is no longer used and valid. 
+activityIndicatorProps  |   Object  |   true  |   null  |   Options to pass to the [`ActivityIndicator`](https://facebook.github.io/react-native/docs/activityindicator.html) component such as `size`, `color` or `style`.   
+[`ActivityIndicator`](https://facebook.github.io/react-native/docs/activityindicator.html) |   Component   | true  | null  | If present it will render this instead of the [`ActivityIndicator`](https://facebook.github.io/react-native/docs/activityindicator.html) component and `activityIndicatorProps` is no longer used and valid. 

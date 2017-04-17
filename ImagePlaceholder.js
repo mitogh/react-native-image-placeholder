@@ -88,7 +88,7 @@ export default class ImagePlaceholder extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-      alignSelf: 'stretch',
+    alignSelf: 'stretch',
   },
   placeholderContainer: {
     flex:  1, 

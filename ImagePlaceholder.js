@@ -48,7 +48,6 @@ export default class ImagePlaceholder extends Component {
         <Image 
           style={[styles.placeholder, this.props.placeholderStyle]}
           source={{ uri: this.props.placeholder }}
-          {...this.props.ImageProps}
         />
         {this._renderActivityIndicator()}
       </Animated.View>

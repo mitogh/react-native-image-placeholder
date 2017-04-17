@@ -28,7 +28,7 @@ the image in a smaller version.
 # Installation
 
 ```bash
-npm install --save reac-native-image-placeholder
+npm install --save react-native-image-with-placeholder
 ```
 
 # Getting started
@@ -37,7 +37,7 @@ Import the file as specified on the [installation steps](#installation). Then im
 plans to use it, for example: 
 
 ```js
-import ImagePlaceholder from 'react-native-image-placeholder'
+import ImagePlaceholder from 'react-native-image-with-placeholder'
 ```
 
 And inside of the `render` method of your component add the component with the properties you

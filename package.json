@@ -1,5 +1,5 @@
 {
-  "name": "react-native-image-placeholder",
+  "name": "react-native-image-with-placeholder",
   "version": "0.1.0",
   "description": "Load images incrementally to provide a better UX",
   "main": "ImageLoader.js",

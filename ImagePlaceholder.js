@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   ActivityIndicator,
   Image,
   StyleSheet,
@@ -9,7 +8,7 @@ import {
   Animated,
 } from 'react-native';
 
-export default class ImageLoader extends Component {
+export default class ImagePlaceholder extends Component {
 
   static defaultProps = {
     duration: 750,

@@ -3,13 +3,19 @@
   "version": "0.1.0",
   "description": "Load images incrementally to provide a better UX",
   "main": "ImageLoader.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitogh/react-native-image-placeholder.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
     "react-native",
+    "react-component",
     "image",
+    "ios",
     "loader"
   ],
   "author": "Crisoforo Gaspar Hernandez <hello@crisoforo.com> (http://crisoforo.com/)",

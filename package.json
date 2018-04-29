@@ -25,5 +25,8 @@
     "react-native": ">=0.20.0"
   },
   "author": "Crisoforo Gaspar Hernandez <hello@crisoforo.com> (http://crisoforo.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "npm": "^6.0.0"
+  }
 }

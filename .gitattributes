@@ -2,6 +2,11 @@
 /img export-ignore
 /__tests__ export-ignore
 /node_modules export-ignore
+.travis.ymp export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+.babelrc export-ignore
+.npmignore export-ignore
 # Gif are binaries
 *.gif binary
 # Don't conflict with package-lock file

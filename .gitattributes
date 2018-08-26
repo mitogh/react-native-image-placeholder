@@ -1,0 +1,6 @@
+# Don't export images
+/img export-ignore
+# Gif are binaries
+*.gif binary
+# Don't conflict with package-lock file
+package-lock.json -diff

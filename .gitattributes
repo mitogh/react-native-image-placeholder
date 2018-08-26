@@ -1,5 +1,7 @@
-# Don't export images
+# Don't export the following files
 /img export-ignore
+/__tests__ export-ignore
+/node_modules export-ignore
 # Gif are binaries
 *.gif binary
 # Don't conflict with package-lock file

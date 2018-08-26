@@ -8,7 +8,7 @@
     "url": "git+https://github.com/mitogh/react-native-image-placeholder.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "react",
@@ -26,7 +26,25 @@
   },
   "author": "Crisoforo Gaspar Hernandez <hello@crisoforo.com> (http://crisoforo.com/)",
   "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^4.0.0",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
+    "react-test-renderer": "^16.4.2",
+    "regenerator-runtime": "^0.12.1"
+  },
   "dependencies": {
-    "npm": "^6.0.0"
+    "react": "^16.4.2",
+    "react-native": "^0.56.0"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "react-native"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "react",
+        "react-native"
+      ],
+      "plugins": [
+        "transform-class-properties"
+      ]
+    }
+  }
+}

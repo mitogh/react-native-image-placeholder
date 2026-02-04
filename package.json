@@ -27,6 +27,6 @@
   "author": "Crisoforo Gaspar Hernandez <hello@crisoforo.com> (http://crisoforo.com/)",
   "license": "MIT",
   "dependencies": {
-    "npm": "^6.0.0"
+    "npm": "^11.9.0"
   }
 }
